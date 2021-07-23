@@ -229,6 +229,8 @@ Error message and password prompt
 
 <li>MySQL</li>
 
+<li>TPCH</li>
+
 </ul>
 </p>
 
@@ -10469,7 +10471,7 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210723142658175" list="Home Benchmark" modified="20210723142658175" title="$:/StoryList">
+<div created="20210723142658175" list="Home Benchmark TPCH" modified="20210723142801359" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20210704064213977" modified="20210704064215693" title="$:/theme">
@@ -10782,6 +10784,53 @@ call my_insert();
 [[配置MySQL的vscode开发环境]]
 
 [[使用存储过程导入数据]]</pre>
+</div>
+<div created="20210723142808159" modified="20210723144015107" tags="benchmark" title="TPCH" type="text/x-markdown">
+<pre>
+## tpch表信息
+| 表名     | 意义       | 行数(*sf) |
+| -------- | ---------- | --------- |
+| Region   | 地区       | 5行       |
+| Nation   | 国家       | 25行      |
+| Supplier | 供应商     | 1w        |
+| Customer | 客户       | 15w       |
+| Part     | 配件       | 20w       |
+| Partsupp | 配件供应商 | 80w       |
+| Orders   | 订单       | 150w      |
+| Lineitem | 订单明细   | 600w      |
+
+简记：
+1. 最大的表是lineitem：sf=100 时，lineitem 6亿行，sf=1000 时，lineitem 60亿行
+
+## tpch query
+
+一共22条query。
+
+1. 包含子查询的query，一共有13条，分别是：
+q2，q4，q7，q8，q9，q11，q13，q15，q17，q18，q20()，q21，q22()
+
+2. 基本上都是多表关联查询，单表查询只有 q1，q4，q6。其中：  
+q2（5表隐式join）  
+q3（3表）  
+q5（6表）  
+q7 (6表)  
+q8（8表）  
+q9（6表）  
+q10 (4表)   
+q11（3表）  
+q18（3表）  
+q21（4表）  
+
+3. 涉及到的函数有聚合，时间操作函数，字符串函数等，如下：  
+sum, avg, min, count(*), date_add, date_sub, extract(year from ..), substring, between and, case when
+
+4. 涉及到的子查询的种类：  
+=,&gt;子查询  
+in子查询  
+exists子查询  
+from子查询  
+
+</pre>
 </div>
 
 
