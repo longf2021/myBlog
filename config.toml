@@ -30,25 +30,30 @@ preserveTaxonomyNames = true
     weight = 2
 
   [[menu.main]]
+    name = "Journals"
+    url = "/journals/"
+    weight = 3
+
+  [[menu.main]]
     name = "Categories"
     url = "/categories/"
-    weight = 3
+    weight = 4
 
   [[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 4
+    weight = 5
 
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 5
+    weight = 6
 
 [params]
     since = 2020
     author = "longfei"
-    avatar = "https://cdn.jsdelivr.net/gh/longf2021/myImage/avatar/me_zjsms.JPG"
-    subtitle = "一个有点菜的程序猿"
+    avatar = "https://cdn.jsdelivr.net/gh/oops-lgtm/myImage/avatar/me_zjsms.JPG"
+    subtitle = "农事不理，则不知稼穑之艰难；休其蚕织，则不知衣服之所自。"
     home_mode = ""
     enableGitalk = false
 
@@ -67,7 +72,7 @@ preserveTaxonomyNames = true
     GitHub = "oops-lgtm"
     Telegram = "longf2021"
     Twitter = "longfeixx"
-    Email   = "lf.x.0720@gmail.com"
+    Email   = "lifelong0720@gmail.com"
 
 [markup.goldmark.renderer]
     unsafe = true
