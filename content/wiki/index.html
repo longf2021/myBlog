@@ -10547,11 +10547,11 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210811142041120" list="Home Algorithm 反转链表" modified="20210811142137242" title="$:/StoryList">
+<div created="20210811142746377" list="$:/ControlPanel Home Algorithm 反转链表" modified="20210811142907558" title="$:/StoryList">
 <pre></pre>
 </div>
-<div created="20210704064213977" modified="20210811142140875" title="$:/theme">
-<pre>$:/themes/tiddlywiki/snowwhite</pre>
+<div created="20210704064213977" modified="20210811142910387" title="$:/theme">
+<pre>$:/themes/tiddlywiki/readonly</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/snowwhite" description="Hides the ability to edit tiddlers" name="ReadOnly" plugin-type="theme" title="$:/themes/tiddlywiki/readonly" type="application/json" version="5.1.23">
 <pre>{
@@ -10676,12 +10676,12 @@ Error message and password prompt
 <div created="20210704064303540" modified="20210704064303540" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
 <pre>fluid-fixed</pre>
 </div>
-<div created="20210706135917132" modified="20210811142608959" tags="刷题" title="反转链表" type="text/x-markdown">
+<div created="20210706135917132" modified="20210811142903575" tags="刷题" title="反转链表" type="text/x-markdown">
 <pre>反转链表
 
 ## 递归
-- 因为用到了`head-&gt;next-&gt;next`，所以初始化`if`需要判断`head-&gt;next`不为空
-- 通过`head-&gt;next`可以快速定位到反转后到链表的尾部
+- 因为用到了`head-&gt;next-&gt;next`，所以初始化`if`需要判断`head-&gt;next`为空（即只有一个元素）的场景
+- 通过`head-&gt;next`可以**快速定位**到反转后到链表的尾部
 - 不能忘记将`head-&gt;next`置为空，否则就形成环了
 
 ```c++
