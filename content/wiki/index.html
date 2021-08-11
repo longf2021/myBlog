@@ -10547,11 +10547,11 @@ Error message and password prompt
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210804225206370" list="$:/ControlPanel $:/themes/tiddlywiki/readonly Home [[好物推荐 🌿]] 字体" modified="20210804225221200" title="$:/StoryList">
+<div created="20210811142041120" list="Home Algorithm 反转链表" modified="20210811142137242" title="$:/StoryList">
 <pre></pre>
 </div>
-<div created="20210704064213977" modified="20210804225239489" title="$:/theme">
-<pre>$:/themes/tiddlywiki/readonly</pre>
+<div created="20210704064213977" modified="20210811142140875" title="$:/theme">
+<pre>$:/themes/tiddlywiki/snowwhite</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/snowwhite" description="Hides the ability to edit tiddlers" name="ReadOnly" plugin-type="theme" title="$:/themes/tiddlywiki/readonly" type="application/json" version="5.1.23">
 <pre>{
@@ -10676,32 +10676,28 @@ Error message and password prompt
 <div created="20210704064303540" modified="20210704064303540" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
 <pre>fluid-fixed</pre>
 </div>
-<div created="20210706135917132" modified="20210706144501297" tags="刷题" title="反转链表" type="text/x-markdown">
+<div created="20210706135917132" modified="20210811142608959" tags="刷题" title="反转链表" type="text/x-markdown">
 <pre>反转链表
 
-递归：
-- ans的初始化很重要，因为`if`只处理了空链表的场景
-- 只有在大于等于2个元素时才会进入`while`循环
+## 递归
+- 因为用到了`head-&gt;next-&gt;next`，所以初始化`if`需要判断`head-&gt;next`不为空
 - 通过`head-&gt;next`可以快速定位到反转后到链表的尾部
+- 不能忘记将`head-&gt;next`置为空，否则就形成环了
 
 ```c++
 class Solution {
- public:
-  ListNode* reverseList(ListNode* head) {
-    // recursion
-    if (head == nullptr) return head;
-    ListNode* ans = head;
-    while (head-&gt;next != nullptr) {
-      ans = reverseList(head-&gt;next);
-      head-&gt;next-&gt;next = head;
-      head-&gt;next = nullptr;
+public:
+    ListNode* reverseList(ListNode* head) {
+        if(head==nullptr || head-&gt;next==nullptr) return head;
+        ListNode* ans = reverseList(head-&gt;next);
+        head-&gt;next-&gt;next = head;
+        head-&gt;next = nullptr;
+        return ans;
     }
-    return ans;
-  }
 };
 ```
 
-迭代：
+## 迭代
 
 将`prev`初始化为空指针，可以避免对于头指针的`next` 置空的特殊处理
 
