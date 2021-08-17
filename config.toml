@@ -71,7 +71,7 @@ preserveTaxonomyNames = true
 [params.social]
     GitHub = "oops-lgtm"
     Telegram = "longf2021"
-    Twitter = "longfeixx"
+    Twitter = "longfei1bot"
     Email   = "lifelong0720@gmail.com"
 
 [markup.goldmark.renderer]
