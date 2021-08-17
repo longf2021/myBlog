@@ -8,7 +8,7 @@ featured_image:
 description: 
 ---
 
-```
+```go
  _                           ___         
 (_ )                       /'___)      _ 
  | |    _     ___     __  | (__   __  (_)
@@ -40,7 +40,7 @@ description:
 <br>
 # 联系方式
 本博客未开通评论系统，如有需求，请发送邮件到我的邮箱吧。我会尽快回复你的。  
-Email: lf.x.0720@gmail.com
+Email: lifelong0720@gmail.com
 
 <br> 
 
