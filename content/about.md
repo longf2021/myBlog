@@ -37,11 +37,13 @@ I am
 - 文章排版很重要，要好看！
 - 希望用博客记录生活，记录成长吧!
 
-使用的主题是[Mogege](https://github.com/Mogeko/Mogege)，感谢原作者的付出，🙏。
+使用的主题是[Diary](https://github.com/amazingrise/hugo-theme-diary)，感谢原作者的付出，🙏。
 <br>
+
 博客时间线：
 - `2021年08月18日:` 主题从[Mogege](https://github.com/Mogeko/Mogege)迁移到[Diary](https://github.com/amazingrise/hugo-theme-diary)
 - `2020年12月25日:` 博客开通
+
 <br>
 # 联系方式
 本博客未开通评论系统，如有需求，请发送邮件到我的邮箱吧。我会尽快回复你的。  
