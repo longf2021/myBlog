@@ -5,7 +5,7 @@ draft: false
 tags: ["TravelNotes"]
 categories: ["又又又出去玩啦"]
 featured_image: ""
-description: ""
+description: "2015年中，大学毕业，从大连来到上海，不知觉间已经快6年时间了..."
 ---
 
 2021年3月28日 周日 阴转晴

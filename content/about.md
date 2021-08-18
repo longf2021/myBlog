@@ -5,7 +5,7 @@ draft: false
 tags: ["关于"]
 categories: ["杂七杂八"]
 featured_image: ""
-description: 
+description: "关于我，关于这个博客..."
 ---
 
 ```c++

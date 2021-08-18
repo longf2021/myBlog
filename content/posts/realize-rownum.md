@@ -5,7 +5,7 @@ draft: false
 tags: ["Databasee"]
 categories: ["coding 1024"]
 featured_image: ""
-description: ""
+description: "在中间件的架构上如何实现rownum伪列功能？"
 ---
 
 <br>

@@ -4,11 +4,9 @@ date: 2021-02-02T22:48:52+08:00
 draft: false
 tags: ["macOS"]
 categories: ["Mac/Linux"]
-featured_image: ""
-description: ""
+featured_image: "https://cdn.jsdelivr.net/gh/oops-lgtm/myImage@main/macos/macos-setup.webp"
+description: "因为使用黑苹果，因此经常需要重新安装系统。本文记录我的`mac`的设置..."
 ---
-
-[TOC]
 
 > 创建于：2021-02-02
 >

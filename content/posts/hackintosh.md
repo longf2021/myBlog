@@ -5,7 +5,7 @@ draft: false
 tags: ["macOS", "折腾"]
 categories: ["Mac/Linux"]
 featured_image: ""
-description: ""
+description: "趁着双11，组装一个黑苹果玩一玩，结果非常成功..."
 ---
 ## 概述
 

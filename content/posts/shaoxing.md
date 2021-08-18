@@ -4,8 +4,8 @@ date: 2021-04-24T01:16:50+08:00
 draft: false
 tags: ["TravelNotes"]
 categories: ["又又又出去玩啦"]
-featured_image: ""
-description: ""
+featured_image: "https://cdn.jsdelivr.net/gh/longf2021/myImage@main/zjsx/luxunguli.jpeg"
+description: "原想着五一去个远点的地方玩，比方说：成都或者大西北～，毕竟去年好像也..."
 ---
 
 2021年4月17～18日	周末	天气阴转晴

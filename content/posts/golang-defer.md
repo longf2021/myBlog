@@ -5,7 +5,7 @@ draft: false
 tags: ["golang"]
 categories: ["coding 1024"]
 featured_image: ""
-description: ""
+description: "golang中的defer是如何工作的？"
 ---
 
 ## 关键点

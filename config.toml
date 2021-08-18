@@ -20,6 +20,7 @@ theme = "diary"
 
 [params]
 subtitle = "fei's Blog"
+enableReadingTime=true
 enableGitalk = false
 # favicon = "/static/favicon.ico"
 

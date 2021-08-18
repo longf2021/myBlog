@@ -4,8 +4,8 @@ date: 2021-07-24T16:47:18+08:00
 draft: false
 tags: ["TravelNotes"]
 categories: ["又又又出去玩啦"]
-featured_image: ""
-description: ""
+featured_image: "https://cdn.jsdelivr.net/gh/oops-lgtm/myImage@main/suzhou/20210724152627.jpeg"
+description: "从上海高铁出发，20多分钟便能抵达苏州。下载app..."
 ---
 
 <br> 序
@@ -23,6 +23,7 @@ description: ""
 遇见平江路，文艺范十足。
 
 <img src="https://cdn.jsdelivr.net/gh/oops-lgtm/myImage@main/suzhou/20210724152627.jpeg" style="zoom: 50%;" />
+
 
 **星巴克**
 
