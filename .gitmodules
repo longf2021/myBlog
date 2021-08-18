@@ -2,6 +2,3 @@
 	path = themes/mogege
 	url = git@github.com:lxxgfeis/mogege.git
 	branch = my
-[submodule "themes/diary"]
-	path = themes/diary
-	url = https://github.com/AmazingRise/hugo-theme-diary.git
