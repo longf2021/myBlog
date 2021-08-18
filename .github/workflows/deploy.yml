@@ -39,5 +39,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: lxxgfeis/lxxgfeis.github.io
+          external_repository: oops-lgtm/oops-lgtm.github.io
           publish_branch: main

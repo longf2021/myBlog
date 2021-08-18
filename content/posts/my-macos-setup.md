@@ -3,7 +3,7 @@ title: "My macOS Setup"
 date: 2021-02-02T22:48:52+08:00
 draft: false
 tags: ["macOS"]
-categories: ["Mac/Linux杂七杂八"]
+categories: ["Mac/Linux"]
 featured_image: ""
 description: ""
 ---

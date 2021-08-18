@@ -2,8 +2,8 @@
 title: "自己动手安装黑苹果"
 date: 2020-12-29T09:25:49+08:00
 draft: false
-tags: ["macOS"]
-categories: ["Mac/Linux杂七杂八"]
+tags: ["macOS", "折腾"]
+categories: ["Mac/Linux"]
 featured_image: ""
 description: ""
 ---
